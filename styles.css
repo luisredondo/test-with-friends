@@ -1,7 +1,32 @@
 body {
     background-color: #000000;
 }
-
 h1 {
     color: #ffffff;
+}
+button {
+    color: #fff;
+    background-color: #4a4a4a;
+    font-weight: bold;
+    transition: all ease .5s;
+}
+button:hover {
+    opacity: .5;
+}
+.message-input {    
+    color: #111;    
+}
+button, .message-input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 22px;
+}
+img {
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+.center {
+    text-align: center;
 }

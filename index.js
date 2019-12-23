@@ -16,5 +16,7 @@ helloButton.addEventListener('click', () => {
     `
     return messageInput.value;
   }
-
+  
+helloButton.addEventListener('click', () => {
+  alert('Hola');
 });
